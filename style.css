@@ -71,20 +71,15 @@ button:hover {
   border-radius: 8px;
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
   position: relative;
-  transition: 0.3s;
-  cursor: pointer;
   animation: show-left 1s forwards;
-}
-
-.cores div:hover {
-  transform: scale(1.1);
 }
 
 .cores div p {
   position: absolute;
   top: 200px;
-  margin-top: 20px;
+  margin-top: 10px;
   font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
 
 @media (max-width: 870px) {
@@ -121,14 +116,14 @@ button:hover {
     padding: 12px 18px;
     background: #4f90e3;
     border-radius: 5px;
-    font-size: .875rem;
+    font-size: 0.875rem;
     margin-bottom: 20px;
-    transition: .4s;
-  }  
+    transition: 0.4s;
+  }
 }
 
 @media (max-width: 470px) {
-  .container{
+  .container {
     flex-direction: column;
     height: 100vh;
   }
@@ -136,7 +131,7 @@ button:hover {
     margin-bottom: 14px;
     font-size: 1.5rem;
   }
-  .cores{
+  .cores {
     flex-direction: column;
   }
   .cores div {
@@ -151,8 +146,8 @@ button:hover {
     padding: 12px 18px;
     background: #4f90e3;
     border-radius: 5px;
-    font-size: .875rem;
+    font-size: 0.875rem;
     margin-bottom: 20px;
-    transition: .4s;
-  }  
+    transition: 0.4s;
+  }
 }
