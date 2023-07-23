@@ -84,4 +84,75 @@ button:hover {
   position: absolute;
   top: 200px;
   margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 870px) {
+  .container h1 {
+    margin-bottom: 18px;
+    font-size: 2rem;
+  }
+  .cores div {
+    width: 150px;
+    height: 150px;
+  }
+  .cores div p {
+    position: absolute;
+    top: 150px;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+@media (max-width: 670px) {
+  .container h1 {
+    margin-bottom: 14px;
+    font-size: 1.5rem;
+  }
+  .cores div {
+    width: 100px;
+    height: 100px;
+  }
+  .cores div p {
+    top: 100px;
+    margin-top: 10px;
+  }
+  button {
+    padding: 12px 18px;
+    background: #4f90e3;
+    border-radius: 5px;
+    font-size: .875rem;
+    margin-bottom: 20px;
+    transition: .4s;
+  }  
+}
+
+@media (max-width: 470px) {
+  .container{
+    flex-direction: column;
+    height: 100vh;
+  }
+  .container h1 {
+    margin-bottom: 14px;
+    font-size: 1.5rem;
+  }
+  .cores{
+    flex-direction: column;
+  }
+  .cores div {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  .cores div p {
+    top: 100px;
+  }
+  button {
+    padding: 12px 18px;
+    background: #4f90e3;
+    border-radius: 5px;
+    font-size: .875rem;
+    margin-bottom: 20px;
+    transition: .4s;
+  }  
 }
