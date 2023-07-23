@@ -16,6 +16,17 @@ function generateColor() {
 
       divElement.appendChild(elementP);
       div.appendChild(divElement);
+
+      function clipBoard() {
+        elementP.addEventListener("click", () => {
+          navigator.clipboard.writeText(elementP.textContent);
+          elementP.textContent = "Copiado";
+          setTimeout(() => {
+            elementP.textContent = color;
+          }, 1500);
+        });
+      }
+      clipBoard();
     }
   }
 
