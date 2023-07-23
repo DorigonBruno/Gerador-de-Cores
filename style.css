@@ -46,14 +46,14 @@ button:hover {
   color: #CAD2EA;
 }
 
-.cores ul {
+.cores {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
 
-.cores li {
+.cores div {
   background: red;
   width: 200px;
   height: 200px;
@@ -64,11 +64,11 @@ button:hover {
   cursor: pointer;
 }
 
-.cores li:hover {
+.cores div:hover {
   transform: scale(1.1);
 }
 
-.cores li p {
+.cores div p {
   position: absolute;
   top: 200px;
   margin-top: 20px;
